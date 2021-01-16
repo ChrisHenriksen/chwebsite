@@ -1,0 +1,471 @@
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+body, html {
+margin: 0;
+padding: 0;
+}
+
+body {
+   background-color: black;
+
+
+
+}
+
+.logo  {
+background-color: white;
+max-width: 100%;
+font-family: 'raleway', sans-serif;
+font-size: 55px;
+font-weight: 400;
+text-align: center;
+margin: 0px;
+padding: 0px;
+line-height: 45px;
+overflow: hidden;
+height: auto;
+border-style: solid;
+border-color: black;
+border-width: 10px;
+}
+
+.logo p {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+
+
+.wrapper {
+/* margin: 0 auto; - VIRKER */
+
+margin-left: 50px;
+margin-right: 50px;
+padding: 0;
+background-color: white;
+overflow: hidden; /* overflow hidden virkede på at få mellemrummet væk? */
+}
+
+
+
+
+/* Index */
+
+.indexbox {
+max-height: 100%;
+max-width: 100%;
+background-color: black;
+}
+
+.indexbox > h1 {
+font-size: 80px;
+color: white;
+font-family:sans-serif;
+text-align: center;
+font-weight: lighter;
+}
+
+.indexbox > h2 {
+font-size: 44px;
+font-family: sans-serif;
+font-weight: lighter;
+color: white;
+text-align: center;
+margin-top: 20px;
+}
+
+
+.button {
+background-color: #111111;
+color: white;
+padding: .5em 1em;
+width: 150px;
+height: auto;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+justify-items: center;
+border: 1px solid;
+margin-top: 70px;
+margin-bottom: 128px;
+cursor: pointer;
+position: center;
+overflow: hidden;
+}
+
+.button > p {
+font-size: 16px;
+color: white;
+font-family: sans-serif;
+text-decoration: none;
+
+}
+
+.button a {
+font-size: 16px;
+color: white;
+font-family: sans-serif;
+text-decoration: none;
+
+}
+
+
+
+
+
+
+
+/* Navbar */
+
+.navbar {
+width: 100%;
+background-color: black;
+overflow: hidden;
+justify-content: center;
+text-align: center;
+margin: 0;
+padding: 0;
+
+}
+
+.navbar a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'raleway', sans-serif;
+    font-weight: 550;
+  }
+
+.navbar ul {
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Navbar */
+
+
+/* projekttitel */
+
+.projecttitle {
+  align-items: center;
+  text-align: center;
+}
+
+
+.billede1 {
+
+height: 250px;
+width: 500px;
+background-color: blue;
+float: left;
+margin-left: 100px;
+
+}
+
+.description1 {
+
+  height: 250px;
+  width: 500px;
+  float: left;
+margin-left: 100px;
+}
+
+.billede2 {
+height: 250px;
+width: 500px;
+background-color: blue;
+float: right;
+margin-right: 100px;
+margin-top: 25px;
+}
+
+.description2 {
+  height: 250px;
+  width: 500px;
+  float: right;
+  margin-right: 100px;
+margin-top: 25px;
+}
+
+
+.billede3 {
+
+height: 250px;
+width: 500px;
+background-color: blue;
+float: left;
+margin-left: 100px;
+margin-bottom: 10px;
+
+}
+
+.description3 {
+
+  height: 250px;
+  width: 500px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+/* billeder af projekt */
+
+
+.aboutme {
+  height: 400px;
+  width: 750px;
+  text-align: center;
+  float: left;
+  margin-left: 600px;
+  margin-top: 100px;
+  background-color: white;
+
+}
+
+/* .aboutme p {
+
+
+}
+
+*/
+
+
+
+.aboutpic {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  background-color: red;
+  color: red;
+  height: 500px;
+  width: 500px;
+
+}
+
+
+
+
+
+
+/* grid */
+
+.grid-container {
+width: 60%;
+ margin: 3rem auto;
+border-style: solid;
+border-color: grey;
+border-width: 10px;
+padding: 3rem;
+background: white;
+grid-gap: 10px;
+display: grid;
+/* grid-template-columns: 1fr 1fr 1fr; */
+grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+
+.a {
+  color: blue;
+  background-color: blue; /* white - fjerner a-tagget */
+
+}
+
+.b {
+  color: red;
+  background-color: red;
+
+}
+
+.c {
+  color: red;
+  background-color: red;
+
+}
+
+.d {
+  color: green;
+  background-color: green;
+}
+
+
+.j {
+  color: blue;
+  background-color: blue;
+
+}
+
+.k {
+  color: blue;
+  background-color: blue;
+
+}
+
+.l {
+  color: blue;
+  background-color: blue;
+
+}
+
+
+.grid-container div {
+  height: 200px;
+  color: black;
+  font-size: 1.3rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+.grid-container img {
+  width: 98%; /* 98%
+  height: 200px; /* skal have 250px i media query
+}
+*/
+
+.grid-container img {
+  height: 200px;
+  width: 100%;
+  color: black;
+  font-size: 1.3rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.footer1 {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  height: 150px;
+  font-family: 'raleway', sans-serif;
+  display: inline-block;
+
+
+}
+
+/* Icons */
+
+.iconscontainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.fa {
+  padding: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 0px;
+  border: 1px;
+}
+
+.fa-facebook {
+  color: white;
+  background: #;
+}
+
+.fa-instagram {
+  background: #;
+  color: white;
+}
+
+.fa-twitter {
+  background: #;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #;
+  color: white;
+}
+
+/* Icons */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 900px) {
+  .grid-container {
+  width: 68%; /*ændret fra 98% til 68% */
+  margin: 0.5rem auto;
+ padding: 1rem;
+  grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-container div {
+    height: 250px;
+}
+
+.grid-container img {
+  width: 100%; /* 98% */
+  height: 250px; /* skal have 250px i media query */
+}
+}
+
+
+@media only screen and (max-width : 600px) { /* max width var for lav, sat fra 500px til 600px */
+  .grid-container {
+  width: 68%; /*ændret fra 98% til 68% */
+  grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-container div {
+    height: 250px;
+  }
+
+
+}
+
+/* grid */

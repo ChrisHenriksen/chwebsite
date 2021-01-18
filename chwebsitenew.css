@@ -214,12 +214,11 @@ margin-top: 25px;
   width: 500px;
   float: right;
   margin-right: 100px;
-margin-top: 25px;
+  margin-top: 25px;
 }
 
 
 .billede3 {
-
 height: 250px;
 width: 500px;
 background-color: blue;
@@ -269,7 +268,6 @@ margin-bottom: 10px;
   color: red;
   height: 500px;
   width: 500px;
-
 }
 
 
@@ -291,15 +289,12 @@ grid-gap: 10px;
 display: grid;
 /* grid-template-columns: 1fr 1fr 1fr; */
 grid-template-columns: repeat(4, 1fr);
-
-
 }
 
 
 .a {
   color: blue;
   background-color: blue; /* white - fjerner a-tagget */
-
 }
 
 .b {
@@ -323,19 +318,16 @@ grid-template-columns: repeat(4, 1fr);
 .j {
   color: blue;
   background-color: blue;
-
 }
 
 .k {
   color: blue;
   background-color: blue;
-
 }
 
 .l {
   color: blue;
   background-color: blue;
-
 }
 
 

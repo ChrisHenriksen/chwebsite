@@ -203,9 +203,49 @@ padding: 0;
 
 }
 
+.description5 p {
+  height: 250px;
+  width: 500px;
+  float: left;
+  margin-left: 100px;
 
+}
 
+.description6 p {
+  height: 250px;
+  width: 500px;
+  float: left;
+  margin-left: 100px;
+margin-top: 140px;
+}
 
+.description7 p {
+  height: 250px;
+  width: 500px;
+  float: left;
+  margin-left: 100px;
+margin-top: 150px;
+margin-bottom: 25px;
+}
+
+.description8 p {
+height: 250px;
+width: 500px;
+float: left;
+margin-left: 100px;
+margin-top: 200px;
+
+}
+
+.description9 p {
+height: 250px;
+width: 500px;
+margin-top: 25px;
+margin-left: 100px;
+margin-bottom: 25px;
+float: right;
+margin-right: 250px;
+}
 
 
 
@@ -282,10 +322,6 @@ object-fit: fill;
 justify-content: center;
 }
 
-
-
-
-
 /*
 .billede7 img {
 float: right;
@@ -298,13 +334,52 @@ object-fit: fill;
 }
 */
 
+.billede8  {
+margin-top: 100px;
+margin-left: 100px;
+object-fit: fill;
+justify-content: center;
+}
 
 
+.billede9 img {
+height: 350px;
+width: 350px;
+margin-top: 50px;
+margin-left: 100px;
+object-fit: fill;
+justify-content: center;
+float: left;
+}
 
+.billede10 img  {
+height: 350px;
+width: 350px;
+margin-top: 100px;
+margin-bottom: 40px;
+margin-left: 100px;
+object-fit: fill;
+float: left;
+}
 
+.billede11 img  {
+height: 400px;
+width: 500px;
+margin-top: 100px;
+margin-bottom: 40px;
+margin-left: 100px;
+object-fit: fill;
+float: left;
+}
 
-
-
+.billede12 img  {
+height: 300px;
+width: 400px;
+margin-top: 100px;
+margin-left: 100px;
+object-fit: fill;
+float: left;
+}
 
 
 

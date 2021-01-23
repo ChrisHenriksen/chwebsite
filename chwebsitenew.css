@@ -219,7 +219,6 @@ margin-bottom: 10px;
 }
 
 .description3 {
-
   height: 250px;
   width: 500px;
   float: left;
@@ -238,7 +237,6 @@ margin-bottom: 10px;
   margin-left: 600px;
   margin-top: 100px;
   background-color: white;
-
 }
 
 /* .aboutme p {
@@ -297,7 +295,33 @@ grid-template-columns: repeat(4, 1fr);
   color: blue;
   background-color: blue;
 }
+/*
+.e {
+color: blue;
+background-color: blue;
+}
 
+.f {
+color: blue;
+background-color: blue;
+}
+
+.g {
+color: blue;
+background-color: blue;
+}
+
+.h {
+color: blue;
+background-color: blue;
+}
+
+.i {
+color: blue;
+background-color: blue;
+}
+
+*/
 
 .j {
   color: blue;

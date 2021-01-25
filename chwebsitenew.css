@@ -29,7 +29,7 @@ line-height: 45px;
 overflow: hidden;
 height: auto;
 border-style: solid;
-border-color: white;
+border-color: #fdfdff;
 border-width: 10px;
 }
 
@@ -56,9 +56,6 @@ background-color: #fdfdff;
 overflow: hidden; /* overflow hidden virkede på at få mellemrummet væk? */
 }
 
-
-/* Index */
-
 .indexbox {
 max-height: 100%;
 max-width: 100%;
@@ -67,7 +64,7 @@ background-color: #110c11;
 
 .indexbox > h1 {
 font-size: 80px;
-color: white;
+color: #fdfdff;
 font-family:sans-serif;
 text-align: center;
 font-weight: lighter;
@@ -77,14 +74,14 @@ font-weight: lighter;
 font-size: 44px;
 font-family: sans-serif;
 font-weight: lighter;
-color: white;
+color: #fdfdff;
 text-align: center;
 margin-top: 20px;
 }
 
 .button {
 background-color: #111111;
-color: white;
+color: #fdfdff;
 padding: .5em 1em;
 width: 150px;
 height: auto;
@@ -102,15 +99,14 @@ overflow: hidden;
 
 .button > p {
 font-size: 16px;
-color: white;
+color: #fdfdff;
 font-family: sans-serif;
 text-decoration: none;
-
 }
 
 .button a {
 font-size: 16px;
-color: white;
+color: #fdfdff;
 font-family: sans-serif;
 text-decoration: none;
 }
@@ -127,7 +123,7 @@ padding: 0;
 }
 
 .navbar a {
-float: center;
+
 color: #fdfdff;
 text-align: center;
 justify-content: center;
@@ -137,7 +133,7 @@ text-decoration: none;
 font-size: 15px;
 font-family: 'raleway', sans-serif;
 font-weight: 550;
-  }
+}
 
 .navbar ul {
 align-items: center;
@@ -147,20 +143,11 @@ text-align: center;
 }
 
 .navbar a:hover {
-background-color: #ddd;
+background-color: #808080;
 color: black;
 }
 
-.navbar a.active {
-background-color: #4CAF50;
-color: white;
-}
-/* Navbar */
 
-
-/*projekt-sider*/
-
-/* titel på projekt */
 .projecttitle {
 align-items: center;
 text-align: center;
@@ -250,7 +237,6 @@ float: left;
 margin-left: 100px;
 margin-bottom: 50px;
 }
-
 /*
 .description1 {
   height: 250px;
@@ -379,8 +365,6 @@ margin-left: 100px;
 margin-top: 25px;
 }
 
-/* billeder af projekt */
-/*projekt-sider*/
 .aboutme {
 height: 400px;
 width: 750px;
@@ -388,7 +372,7 @@ text-align: center;
 float: left;
 margin-left: 600px;
 margin-top: 100px;
-background-color: white;
+background-color: #fdfdff;
 }
 
 .aboutme ul {
@@ -396,7 +380,6 @@ line-height: 25px;
 display: block;
 font-family: raleway;
 text-align: left;
-float: center;
 margin-top: 30px;
 margin-bottom: 100px;
 position: absolute;
@@ -413,7 +396,7 @@ color: red;
 height: 500px;
 width: 500px;
 }
-/* grid */
+
 .grid-container {
 width: 60%;
 margin: 3rem auto;
@@ -421,59 +404,12 @@ border-style: solid;
 border-color: #808080;
 border-width: 10px;
 padding: 3rem;
-background: white;
+background: #fdfdff;
 grid-gap: 10px;
 display: grid;
-/* grid-template-columns: 1fr 1fr 1fr; */
 grid-template-columns: repeat(4, 1fr);
 }
 
-.a {
-color: blue;
-background-color: ; /* white - fjerner a-tagget */
-}
-
-.b {
-  color: red;
-  background-color: ;
-
-}
-
-.c {
-  color: red;
-  background-color: ;
-}
-
-.d {
-  color: blue;
-  background-color: ;
-}
-/*
-.e {
-color: blue;
-background-color: blue;
-}
-
-.f {
-color: blue;
-background-color: blue;
-}
-
-.g {
-color: blue;
-background-color: blue;
-}
-
-.h {
-color: blue;
-background-color: blue;
-}
-
-.i {
-color: blue;
-background-color: blue;
-}
-*/
 .j {
   color: blue;
   background-color: black;
@@ -498,12 +434,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-/*
-.grid-container img {
-  width: 98%; /* 98%
-  height: 200px; /* skal have 250px i media query
-}
-*/
+
 .grid-container img {
 height: 200px;
 width: 100%;
@@ -518,7 +449,7 @@ justify-content: center;
 .footer1 {
 width: 100%;
 background-color: #110c11;
-color: white;
+color: #fdfdff;
 text-align: center;
 bottom: 0;
 height: 150px;
@@ -537,9 +468,11 @@ margin-left: 50px;
 line-height: 20px;
 }
 
+/* Inspiration fra: https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/
+*/
 @media only screen and (max-width : 900px) {
   .grid-container {
-  width: 68%; /*ændret fra 98% til 68% */
+  width: 68%;
   margin: 0.5rem auto;
   padding: 1rem;
   grid-template-columns: 1fr 1fr;
@@ -550,9 +483,10 @@ line-height: 20px;
 }
 
 .grid-container img {
-  width: 100%; /* 98% */
-  height: 250px; /* skal have 250px i media query */
+  width: 100%;
+  height: 250px;
 }
+
 .projecta {
   width: 50%;
   height: 50%;
@@ -564,16 +498,16 @@ line-height: 20px;
   bottom: 0;
   overflow-x: hidden;
 }
+
 .billede1 {
   width: 50%;
   height: 50%;
   position: relative;
-  overflow-y: scroll;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
- background-color: ;
+  background-color: ;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -590,11 +524,9 @@ bottom: 0;
   }
 }
 
-
-
-@media only screen and (max-width : 600px) { /* max width var for lav, sat fra 500px til 600px */
+@media only screen and (max-width : 600px) {
   .grid-container {
-  width: 68%; /*ændret fra 98% til 68% */
+  width: 68%;
   grid-template-columns: repeat(1, 1fr);
   }
 
@@ -618,7 +550,7 @@ bottom: 0;
     right: 0;
     top: 0;
     bottom: 0;
-   background-color: ;
+    background-color: ;
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -626,15 +558,15 @@ bottom: 0;
 .description1 {
   width: 50%;
   height: 50%;
- position: relative;
- margin: 0 0;
- left: 0;
- right: 0;
- top: 0;
- bottom: 0;
+  position: relative;
+  margin: 0 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
   .grid-container div {
-    height: 250px;
+  height: 250px;
   }
 }

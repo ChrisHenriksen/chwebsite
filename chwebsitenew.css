@@ -504,6 +504,7 @@ bottom: 0;
   grid-template-columns: repeat(1, 1fr);
   }
 
+/*projektsiderne kan jeg ikke få til at blive responsive. Derfor er der kun dette ene eksempel på et forsøg på det. */
   .projecta {
     width: 50%;
     height: 50%;

@@ -48,12 +48,11 @@ text-decoration: none;
 }
 
 .wrapper {
-/* margin: 0 auto; - VIRKER */
 margin-left: 50px;
 margin-right: 50px;
 padding: 0;
 background-color: #fdfdff;
-overflow: hidden; /* overflow hidden virkede på at få mellemrummet væk? */
+overflow: hidden;
 }
 
 .indexbox {
@@ -111,7 +110,6 @@ font-family: sans-serif;
 text-decoration: none;
 }
 
-/* Navbar */
 .navbar {
 width: 100%;
 background-color: #110c11;
@@ -123,7 +121,6 @@ padding: 0;
 }
 
 .navbar a {
-
 color: #fdfdff;
 text-align: center;
 justify-content: center;
@@ -190,7 +187,6 @@ height: 250px;
 width: 500px;
 float: left;
 margin-left: 100px;
-
 }
 
 .description6 p {
@@ -216,7 +212,6 @@ width: 500px;
 float: left;
 margin-left: 100px;
 margin-top: 200px;
-
 }
 
 .description9 p {
@@ -237,15 +232,7 @@ float: left;
 margin-left: 100px;
 margin-bottom: 50px;
 }
-/*
-.description1 {
-  height: 250px;
-  width: 500px;
-  float: left;
-  margin-left: 100px;
-  margin-top: 100px;
-}
-*/
+
 .billede2 img {
 height: 350px;
 width: 500px;
@@ -300,17 +287,7 @@ margin-left: 100px;
 object-fit: fill;
 justify-content: center;
 }
-/*
-.billede7 img {
-float: right;
-height: 500px;
-width: 550px;
-margin-top: 150px;
-margin-right: 100px;
-margin-bottom: 50px;
-object-fit: fill;
-}
-*/
+
 .billede8  {
 margin-top: 100px;
 margin-left: 100px;
@@ -411,17 +388,14 @@ grid-template-columns: repeat(4, 1fr);
 }
 
 .j {
-  color: blue;
   background-color: black;
 }
 
 .k {
-  color: blue;
   background-color: black;
 }
 
 .l {
-  color: blue;
   background-color: black;
 }
 
